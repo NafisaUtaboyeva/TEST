@@ -10,6 +10,7 @@ namespace TestCheckerWithUsers.IRepositories
     internal interface IMethodsForUsers
     {
         public void SolveTest(Test test);
+        public void Menu();
 
     }
 }

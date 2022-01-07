@@ -12,5 +12,7 @@ namespace TestCheckerWithUsers.IRepositories
         public Test CreateTest();
         public List<User> GetListOfUsers();
         public void DeleteTest();
+        public void Menu();
+
     }
 }

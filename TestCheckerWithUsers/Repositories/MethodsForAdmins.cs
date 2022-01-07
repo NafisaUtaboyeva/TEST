@@ -107,5 +107,45 @@ namespace TestCheckerWithUsers.Repositories
                 return JsonConvert.DeserializeObject<List<User>>(json);
         }
 
+
+        public void Menu()
+        {
+            IMethods methods = new Methods();
+        AdminMenu:
+            // print admin's menu
+            Console.WriteLine("\n1.Create Test        2.Delete Test      3.Print List of Users      4.Print List of Tests    0.Exit");
+            Console.Write("-> ");
+
+            int menuForAdmin = int.Parse(Console.ReadLine());
+            if (menuForAdmin == 1)
+            {
+                CreateTest();
+                goto AdminMenu;
+            }
+            else if (menuForAdmin == 2)
+            {
+                DeleteTest();
+                goto AdminMenu;
+            }
+            else if (menuForAdmin == 3)
+            {
+                List<User> users = GetListOfUsers();
+                foreach (User user1 in users)
+                    methods.AboutUser(user1);
+                goto AdminMenu;
+            }
+            if (menuForAdmin == 4)
+            {
+                List<Test> tests = methods.GetTestList();
+                if (tests.Count == 0)
+                    Console.WriteLine("There are not any tests in our base");
+                else
+                {
+                    foreach (Test test in tests)
+                        methods.AboutTest(test);
+                }
+                goto AdminMenu;
+            }
+        }
     }
 }
