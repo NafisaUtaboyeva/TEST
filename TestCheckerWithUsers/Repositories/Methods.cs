@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 
 namespace TestCheckerWithUsers.Repositories
 {
-    public class Methods : IMethods
+    internal class Methods : IMethods
     {
         public void AboutTest(Test test)
         {

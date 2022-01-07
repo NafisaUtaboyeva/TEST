@@ -7,7 +7,7 @@ using TestCheckerWithUsers.Models;
 
 namespace TestCheckerWithUsers.IRepositories
 {
-    public interface IMethodsForAdmins
+    internal interface IMethodsForAdmins
     {
         public Test CreateTest();
         public List<User> GetListOfUsers();

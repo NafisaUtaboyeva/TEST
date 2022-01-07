@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestCheckerWithUsers.Models
 {
-    public class Test
+    internal class Test
     {
         public string Title { get; set; }
         public int Amount { get; set; }

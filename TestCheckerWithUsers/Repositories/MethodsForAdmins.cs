@@ -8,7 +8,7 @@ using TestCheckerWithUsers.Services;
 
 namespace TestCheckerWithUsers.Repositories
 {
-    public class MethodsForAdmins : IMethodsForAdmins
+    internal class MethodsForAdmins : IMethodsForAdmins
     {
         public Test CreateTest()
         {

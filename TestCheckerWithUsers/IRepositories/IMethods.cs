@@ -7,7 +7,7 @@ using TestCheckerWithUsers.Models;
 
 namespace TestCheckerWithUsers.IRepositories
 {
-    public interface IMethods
+    internal interface IMethods
     {
         public User CreateUser();
         public User SignIn();

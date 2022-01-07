@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestCheckerWithUsers.Enums
 {
-    public enum UserRole
+    internal enum UserRole
     {
         Admin, 
         User

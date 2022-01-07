@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestCheckerWithUsers.Services
 {
-    public class Constants
+    internal class Constants
     {
         public static readonly string TestsJsonPath = @"..\..\..\DataBase\Tests.json";
         public static readonly string UsersJsonPath = @"..\..\..\DataBase\Users.json";
