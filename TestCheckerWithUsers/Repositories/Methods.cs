@@ -14,18 +14,27 @@ namespace TestCheckerWithUsers.Repositories
 {
     internal class Methods : IMethods
     {
+        /// <summary>
+        /// Print informations about test (title and amount)
+        /// </summary>
+        /// <param name="test"></param>
         public void AboutTest(Test test)
         {
             Console.WriteLine($"About: {test.Title}");
             Console.WriteLine($"Number of questions: {test.Amount}");
         }
 
+        /// <summary>
+        /// Print informations about user (FirstName, LastName and Role)
+        /// </summary>
+        /// <param name="user"></param>
         public void AboutUser(User user)
         {
             Console.WriteLine($"FirstName: {user.FirstName}\n" +
                 $"LastName: {user.LastName}\n" + 
                 $"Role: {user.Role}\n");
         }
+
 
         public User CreateUser()
         {
