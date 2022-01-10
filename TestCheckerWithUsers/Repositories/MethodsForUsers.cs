@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestCheckerWithUsers.IRepositories;
-using TestCheckerWithUsers.Models;
+using TEST.IRepositories;
+using TEST.Models;
 
-namespace TestCheckerWithUsers.Repositories
+namespace TEST.Repositories
 {
     internal class MethodsForUsers : IMethodsForUsers
     {

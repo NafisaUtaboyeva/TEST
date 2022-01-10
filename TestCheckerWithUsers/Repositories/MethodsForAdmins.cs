@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using TestCheckerWithUsers.IRepositories;
-using TestCheckerWithUsers.Models;
+using TEST.IRepositories;
+using TEST.Models;
 using Newtonsoft.Json;
 using System.IO;
-using TestCheckerWithUsers.Services;
+using TEST.Services;
 
-namespace TestCheckerWithUsers.Repositories
+namespace TEST.Repositories
 {
     internal class MethodsForAdmins : IMethodsForAdmins
     {

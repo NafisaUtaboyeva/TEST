@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestCheckerWithUsers.Models;
+using TEST.Models;
 
-namespace TestCheckerWithUsers.IRepositories
+namespace TEST.IRepositories
 {
     internal interface IMethods
     {

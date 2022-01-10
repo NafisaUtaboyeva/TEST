@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestCheckerWithUsers.Models
+namespace TEST.Models
 {
     internal class User
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using TestCheckerWithUsers.IRepositories;
-using TestCheckerWithUsers.Models;
-using TestCheckerWithUsers.Repositories;
+using TEST.IRepositories;
+using TEST.Models;
+using TEST.Repositories;
 
-namespace TestCheckerWithUsers
+namespace TEST
 {
     internal class Program
     {

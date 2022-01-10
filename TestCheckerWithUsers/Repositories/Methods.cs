@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestCheckerWithUsers.IRepositories;
-using TestCheckerWithUsers.Enums;
-using TestCheckerWithUsers.Models;
-using TestCheckerWithUsers.Services;
+using TEST.IRepositories;
+using TEST.Enums;
+using TEST.Models;
+using TEST.Services;
 using Newtonsoft.Json;
 
-namespace TestCheckerWithUsers.Repositories
+namespace TEST.Repositories
 {
     internal class Methods : IMethods
     {
